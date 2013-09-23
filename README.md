@@ -12,21 +12,25 @@ Creating the input datasets
 
 1. Create a text file called 'training.txt' which contains three columns. The first column is the data point number, the second column is the feature number and the third column is the value of the feature.
 
-eg:  1 23 5
-     1 14 1
-     1 52 6
-     2 12 2
-     2 15 7
-     3 27 1
-     4 76 4
+eg:  
+
+1 23 5
+1 14 1
+1 52 6
+2 12 2
+2 15 7
+3 27 1
+4 76 4
 
 2. Create a file called 'label_training.txt' which contains the labels for all the rows of the training set.
 
-eg: 1
-    2
-    4
-    7
-    9
+eg: 
+
+1
+2
+4
+7
+9
 
 3. Create a file called 'testing.txt' which is similar to 'training.txt'. This contains all the data points that need to be classified.
 
